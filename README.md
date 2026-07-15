@@ -43,7 +43,7 @@ The website uses a pastel purple theme with:
 
 The website is published using GitHub Pages.
 
-[View My Portfolio](PASTE-YOUR-GITHUB-PAGES-LINK-HERE)
+[View My Portfolio]((https://rubaaljohani.github.io/Personal-website-design/))
 
 ## Author
 
