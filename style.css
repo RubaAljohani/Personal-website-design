@@ -1,0 +1,149 @@
+/* Design for the whole page */
+body {
+    margin: 0;
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+/* First part of the website */
+header {
+    background-image: url("banner.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+text-shadow: 1px 1px 4px purple;
+}
+
+main {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 15%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 8px;
+}
+
+section:nth-child(even) {
+    background-color: rgba(230, 230, 250, 0.75);
+}
+
+
+/* Every second section has a light-purple background */
+section:nth-child(even) {
+    background-color: rgba(230, 230, 250, 0.9);
+}
+/* Your name */
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Your major */
+header p {
+    font-size: 18px;
+}
+
+/* Portfolio menu */
+nav {
+    margin-top: 30px;
+}
+
+nav h2 {
+    margin-bottom: 15px;
+}
+
+/* Remove the dots from the menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Put the menu items beside each other */
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Menu links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Effect when pointing at a menu link */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* View My Projects button */
+header > a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #34495e;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* All main sections */
+section {
+    padding: 40px 15%;
+}
+
+/* Section titles */
+section h2 {
+    color: #34495e;
+}
+
+/* About Me section */
+#about {
+    background-color: white;
+}
+
+/* Skills list */
+#skills ul {
+    padding-left: 20px;
+}
+
+/* Projects section */
+#projects {
+    background-color: white;
+}
+
+/* Each project */
+#projects article {
+    background-color: #E6E6FA;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Contact section */
+#contact {
+    text-align: center;
+}
+
+/* Contact links */
+#contact a {
+    color: #34495e;
+}
+
+/* Bottom of the website */
+footer {
+    background-color: #B39DDB;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
